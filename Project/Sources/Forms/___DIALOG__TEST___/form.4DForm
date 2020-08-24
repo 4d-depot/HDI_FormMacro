@@ -1,0 +1,177 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"Line2": {
+					"type": "line",
+					"top": 65,
+					"left": 306,
+					"width": 0,
+					"height": 261
+				},
+				"Line3": {
+					"type": "line",
+					"top": 65,
+					"left": 155,
+					"width": 0,
+					"height": 261
+				},
+				"Line": {
+					"type": "line",
+					"top": 154,
+					"left": 36,
+					"width": 410,
+					"height": 0
+				},
+				"Line1": {
+					"type": "line",
+					"top": 174,
+					"left": 36,
+					"width": 410,
+					"height": 0
+				}
+			}
+		},
+		{
+			"objects": {
+				"Button": {
+					"type": "button",
+					"text": "Button",
+					"top": 154,
+					"left": 155,
+					"width": 152,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"dataSource": "",
+					"class": "Coucou",
+					"stroke": "red"
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Button",
+					"top": 199,
+					"bottom": 219,
+					"left": 210,
+					"width": 183,
+					"events": [
+						"onClick"
+					],
+					"stroke": "red"
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Button",
+					"top": 107,
+					"left": 97,
+					"width": 136,
+					"height": 20,
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"class": "Coucou",
+					"stroke": "green"
+				},
+				"Text": {
+					"type": "text",
+					"text": "text default",
+					"top": 50,
+					"left": 593,
+					"width": 134,
+					"height": 16
+				},
+				"Text1": {
+					"type": "text",
+					"text": "text default",
+					"top": 86,
+					"left": 593,
+					"width": 134,
+					"height": 16,
+					"stroke": "red"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "text default",
+					"top": 122,
+					"left": 593,
+					"width": 134,
+					"height": 16
+				},
+				"Text3": {
+					"type": "text",
+					"text": "text default",
+					"top": 158,
+					"left": 593,
+					"width": 134,
+					"height": 16
+				},
+				"bCancel": {
+					"type": "button",
+					"text": "Cancel",
+					"top": 428,
+					"left": 267,
+					"width": 60,
+					"height": 80,
+					"events": [
+						"onClick"
+					],
+					"icon": "/RESOURCES/Images/cancl.png",
+					"iconFrames": 4,
+					"style": "bevel"
+				},
+				"Static Picture2": {
+					"type": "picture",
+					"top": 528,
+					"left": 36,
+					"width": 372,
+					"height": 187,
+					"picture": "/RESOURCES/Image/cancel.png"
+				},
+				"Button4": {
+					"type": "button",
+					"text": "OK",
+					"top": 428,
+					"left": 348,
+					"width": 60,
+					"height": 80,
+					"events": [
+						"onClick"
+					],
+					"icon": "/RESOURCES/Images/validate.png",
+					"iconFrames": 4,
+					"style": "bevel"
+				}
+			}
+		},
+		{
+			"objects": {}
+		}
+	],
+	"geometryStamp": 68,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}
