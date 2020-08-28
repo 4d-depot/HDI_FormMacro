@@ -75,7 +75,7 @@
 					"events": [
 						"onClick"
 					],
-					"stroke": "red"
+					"stroke": "green"
 				},
 				"Button2": {
 					"type": "button",
@@ -159,6 +159,61 @@
 					"icon": "/RESOURCES/Images/validate.png",
 					"iconFrames": 4,
 					"style": "bevel"
+				},
+				"Static Picture1": {
+					"type": "picture",
+					"top": 480,
+					"left": 574,
+					"width": 48,
+					"height": 192,
+					"picture": "images/new.png"
+				},
+				"Button3": {
+					"type": "button",
+					"text": "Button",
+					"top": 90,
+					"left": 839,
+					"width": 173,
+					"height": 21,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button3.4dm"
+				},
+				"Button5": {
+					"type": "button",
+					"text": "Button",
+					"top": 133,
+					"left": 839,
+					"width": 173,
+					"height": 21,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button123456.4dm"
+				},
+				"Button6": {
+					"type": "button",
+					"text": "Button",
+					"top": 176,
+					"left": 839,
+					"width": 173,
+					"height": 21,
+					"events": [
+						"onClick"
+					],
+					"method": "projectMethodButton"
+				},
+				"Button7": {
+					"type": "button",
+					"text": "Button",
+					"top": 219,
+					"left": 839,
+					"width": 173,
+					"height": 21,
+					"events": [
+						"onClick"
+					]
 				}
 			}
 		},
@@ -166,7 +221,7 @@
 			"objects": {}
 		}
 	],
-	"geometryStamp": 68,
+	"geometryStamp": 93,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

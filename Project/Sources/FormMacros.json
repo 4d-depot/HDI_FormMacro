@@ -23,19 +23,22 @@
      "5- Check Image Path": {
        "class": "CheckImagePath"
      },
-     "6- Align to Left on Target Object": {
+     "6- Check Method Path": {
+       "class": "CheckMethodPath"
+     },
+     "7- Align to Left on Target Object": {
        "class": "AlignOnTarget",
        "type": "left"
      },
-     "6- Align to Right on Target Object": {
+     "7- Align to Right on Target Object": {
        "class": "AlignOnTarget",
        "type": "right"
      },
-     "6- Align to Top on Target Object": {
+     "7- Align to Top on Target Object": {
        "class": "AlignOnTarget",
        "type": "top"
      },
-     "6- Align to Bottom on Target Object": {
+     "7- Align to Bottom on Target Object": {
        "class": "AlignOnTarget",
        "type": "down"
      }

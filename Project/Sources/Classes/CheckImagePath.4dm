@@ -17,7 +17,7 @@ Function onInvoke($editor : Object)
 			
 			// Loop on image attribute
 			For each ($attribute; $imageAttribute)
-				If (Not:C34(This:C1470.checkPath($pages.objects[$objectName]; $attribute)))
+				If (Not:C34(This:C1470.checkPath($pages.objects[$objectName]; $attribute; $editor.editor.file.parent.path)))
 					$errorMessage:=$errorMessage+$objectName+" - "+$attribute+" - "+$pages.objects[$objectName][$attribute]+"\n"
 				End if 
 			End for each 
@@ -33,11 +33,17 @@ Function onInvoke($editor : Object)
 	End if 
 	
 	
-Function checkPath($object : Object; $attribute : Text)->$isCorrect : Boolean
+Function checkPath($object : Object; $attribute : Text; $pathForm : Text)->$isCorrect : Boolean
 	$isCorrect:=False:C215
 	
 	If ($object[$attribute]#Null:C1517)
-		$isCorrect:=File:C1566($object[$attribute]; *).exists
+		If ($object[$attribute][[1]]="/")
+			// absolute path
+			$isCorrect:=File:C1566($object[$attribute]; fk posix path:K87:1; *).exists
+		Else 
+			// relatif path to the form
+			$isCorrect:=File:C1566($pathForm+$object[$attribute]; fk posix path:K87:1; *).exists
+		End if 
 	Else 
 		// if null property
 		$isCorrect:=True:C214

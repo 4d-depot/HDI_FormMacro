@@ -114,5 +114,12 @@
 			}
 		}
 	],
-	"geometryStamp": 6
+	"geometryStamp": 9,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
 }
